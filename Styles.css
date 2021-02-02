@@ -1,0 +1,27 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+body{
+	background: image("images\lemonrice.png")
+}
+@media (min-width: 576px) {
+	body{
+    	background: oldlace;
+	}
+ }
+@media (min-width: 768px) { body{
+	background: rosybrown;
+} }
+@media (min-width: 992px) { body{
+	background: plum;
+} }
+@media (min-width: 1200px) { body{
+	background: oldlace;
+} }
+ 
+ 
+
