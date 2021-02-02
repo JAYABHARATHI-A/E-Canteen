@@ -1,0 +1,118 @@
+<?php include "php_functions.php"; ?> 
+<?php include "header.php" ?>
+    
+<body id="body">
+    <div class="jumbotron jumbotron-fluid text-center bg-dark pb-2 pt-3">
+        <h1 class=" display-3 text-white pt-0">TECH CANTEEN</h1>
+        <hr class="m-2 ">
+        <small class="text-muted text-center ">sign_in_page</small>
+    </div>
+    <!-- <h1 class="display-1 text-danger">WELCOME11</h1> -->
+    <br><br><br>
+    
+    
+    <div class="container border border shadow-lg rounded p-4 mb-4 bg-white" style="max-width: 400px;">
+        <form method="post" action="sign_up.php">
+            <h3 class="text-center  my-4">SIGN_UP</h3>
+
+            <label for="text" class="ml-1">Roll_no:</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-id-badge"></i>
+                    </span>
+                </div>
+                <input type="text" name="id" oninput="check_rollno()" class="form-control" placeholder="roll_no">
+            </div>
+            
+            
+            
+            <label for="text" class="ml-1">Student_name:</label>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fa fa-user-circle"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control" placeholder="name" name="username">
+            </div>
+            
+            
+            
+            <label for="password" class="ml-1">Password:</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </div>
+                <input type="password" name="password" class="form-control" placeholder="Password">
+            </div>
+            <small class=" ml-1 text-muted">Password must be 8 characters</small>
+            <br>
+            
+            
+            
+            <label for="password" class="ml-1 mt-1 ">Confirm_Password:</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fas fa-key"></i>
+                    </span>
+                </div>
+                <input type="password" name="c_password" class="form-control" placeholder="Password">
+            </div>
+            
+            
+            <label for="Mobile_Number" class="ml-1 mt-1 ">Mobile_Number:</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                </div>
+                <input type="number" name=" m_no" class="form-control" placeholder="current_number">
+            </div>
+            <div class="mt-4">
+                <!--<center><a href="#" class=" p-2 btn btn-block btn-info"  data-toggle= "popover"
+                    data-title="Succesfully signed up"    
+                    data-content="Go back and try to login again!!!">SUBMIT</a>
+<-->            <?php 
+                if(isset($_POST['submit'])){
+                    
+                    createRows(); 
+                    }
+                ?>
+              
+               <input type="submit" name="submit" value="CREATE ACCOUNT" class="btn btn-block btn-info">
+                <p class="pt-2">Already have a account? <a href="login.php">Sign in</a></p>
+               <!-- </center>-->
+
+            </div>
+        </form>
+    </div>    
+    
+    
+    
+    
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    
+</body>
+
+</html>
+
+
+
