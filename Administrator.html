@@ -1,0 +1,838 @@
+ 
+ 
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+ 
+ 
+<head>
+ 
+<title>Bootstrap Example</title>
+ 
+<meta charset="utf-8">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ 
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+ 
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+</head>
+ 
+<style>
+ 
+.navbar {
+ 
+color: floralwhite;
+ 
+border-radius: 0%;
+ 
+}
+ 
+ 
+ 
+.hbold1 {
+ 
+font-weight: 800;
+ 
+}
+ 
+</style>
+ 
+ 
+ 
+<body style=" background-color:black;">
+ 
+<div class="container-fluid" style="background-color:black ;">
+ 
+<div class="well well-sm" style="background-color:black; border-color: black;">
+ 
+<h1 class="text-center" style="color:floralwhite"><span class="glyphicon glyphicon-cog"></span> ADMIN
+ 
+PANEL</span></h1>
+ 
+</div>
+ 
+</div>
+ 
+<nav class="navbar navbar-inverse">
+ 
+<div class="container-fluid">
+ 
+<ul class="nav navbar-nav">
+ 
+<li class="active"><a href="#">ADMIN PANEL</a></li>
+ 
+<li><a href="#">PAGE 1</a></li>
+ 
+<li><a href="#">PAGE 2</a></li>
+ 
+</ul>
+ 
+<ul class="nav navbar-nav navbar-right">
+ 
+<li class="active"><a href="#"><span class="glyphicon glyphicon-log-out"></span>LOGOUT</a></li>
+ 
+</ul>
+ 
+ 
+ 
+</div>
+ 
+</nav>
+ 
+ 
+ 
+ 
+ 
+<!--1,2-->
+ 
+ 
+ 
+<div class="container-fluid">
+ 
+<div class="row">
+ 
+<div class="col-sm-6">
+ 
+<div class="well well-lg">
+ 
+<h4 class="hbold1">MANAGE CANTEEN :</h4>
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Canteen name: </h5>
+ 
+</div>
+ 
+ 
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<button class="btn btn-default dropdown-toggle" type="button"
+ 
+data-toggle="dropdown">Select Canteen
+ 
+<span class="caret"></span></button>
+ 
+<ul class="dropdown-menu">
+ 
+<li>F-block Canteen</li>
+ 
+<li>J-block Canteen</li>
+ 
+<li>A-block Canteen</li>
+ 
+<li>IM-canteen</li>
+ 
+</ul>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Status :</h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<div class="form-group">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<br>
+ 
+<br>
+ 
+<br>
+ 
+<br>
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<p></p>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<button type="button" class="btn btn-primary">CHANGE STATUS</button>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+<div class="col-sm-6">
+ 
+<div class="well well-lg">
+ 
+<h4 class="hbold1">MANAGE FOOD :</h4>
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Canteen name : </h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<button class="btn btn-default dropdown-toggle" type="button"
+ 
+data-toggle="dropdown">Select Canteen
+ 
+<span class="caret"></span></button>
+ 
+<ul class="dropdown-menu">
+ 
+<li>F-block Canteen</li>
+ 
+<li>J-block Canteen</li>
+ 
+<li>A-block Canteen</li>
+ 
+<li>IM-Canteen</li>
+ 
+</ul>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Food name : </h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<button class="btn btn-default dropdown-toggle" type="button"
+ 
+data-toggle="dropdown">Select food
+ 
+<span class="caret"></span></button>
+ 
+<ul class="dropdown-menu">
+ 
+<li>Veg briyani</li>
+ 
+<li>Mushroom briyani</li>
+ 
+<li>Veg fried rice</li>
+ 
+</ul>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Food price : </h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<div class="form-group">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<p></p>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<button type="button" class="btn btn-primary">CHANGE PRICE</button>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+<!--3,4-->
+ 
+<div class="container-fluid">
+ 
+<div class="row">
+ 
+<div class="col-sm-6">
+ 
+<div class="well well-lg">
+ 
+<h4 class="hbold1">MANAGE :</h4>
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Select canteen : </h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<button class="btn btn-default dropdown-toggle" type="button"
+ 
+data-toggle="dropdown">Select Canteen
+ 
+<span class="caret"></span></button>
+ 
+<ul class="dropdown-menu">
+ 
+<li>F-block Canteen</li>
+ 
+<li>J-block Canteen</li>
+ 
+<li>A-block Canteen</li>
+ 
+<li>IM-Canteen</li>
+ 
+</ul>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Food name : </h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<button class="btn btn-default dropdown-toggle" type="button"
+ 
+data-toggle="dropdown">Select food
+ 
+<span class="caret"></span></button>
+ 
+<ul class="dropdown-menu">
+ 
+<li>Veg briyani</li>
+ 
+<li>Mushroom briyani</li>
+ 
+<li>Veg fried rice</li>
+ 
+</ul>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Status :</h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<div class="form-group">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<p></p>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<button type="button" class="btn btn-primary">CHANGE STATUS</button>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+<div class="col-sm-6">
+ 
+<div class="well well-lg">
+ 
+<h4 class="hbold1">VIEW FOOD DETAILS :</h4>
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Canteen name : </h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<button class="btn btn-default dropdown-toggle" type="button"
+ 
+data-toggle="dropdown">SELECT CANTEEN
+ 
+<span class="caret"></span></button>
+ 
+<ul class="dropdown-menu">
+ 
+<li>F-block Canteen</li>
+ 
+<li>J-block Canteen</li>
+ 
+<li>A-block Canteen</li>
+ 
+<li>IM-Canteen</li>
+ 
+</ul>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<h5>Food name : </h5>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<div class="dropdown">
+ 
+<button class="btn btn-default dropdown-toggle" type="button"
+ 
+data-toggle="dropdown">Select food
+ 
+<span class="caret"></span></button>
+ 
+<ul class="dropdown-menu">
+ 
+<li>Veg briyani</li>
+ 
+<li>Mushroom briyani</li>
+ 
+<li>Veg fried rice</li>
+ 
+</ul>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+<br>
+ 
+<br>
+ 
+<br>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-3">
+ 
+<p></p>
+ 
+</div>
+ 
+<div class="col-sm-3">
+ 
+<button type="button" class="btn btn-primary">VIEW DETAILS</button>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<!--5-->
+ 
+<div class="container-fluid">
+ 
+<div class="well well-lg">
+ 
+<h4 class="hbold1">ADD FOOD :</h4>
+ 
+<div class="row">
+ 
+<div class="col-sm-2">
+ 
+<h5>Canteen name: </h5>
+ 
+</div>
+ 
+<div class="col-sm-2">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+<div class="col-sm-2"></div>
+ 
+<div class="col-sm-2">
+ 
+<h5>Food name:</h5>
+ 
+</div>
+ 
+<div class="col-sm-2">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+ 
+ 
+</div>
+ 
+<br>
+ 
+<div class="row">
+ 
+<div class="col-sm-2">
+ 
+<h5>Food price:</h5>
+ 
+</div>
+ 
+<div class="col-sm-2">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+<div class="col-sm-2"></div>
+ 
+<div class="col-sm-2">
+ 
+<h5>Start time :</h5>
+ 
+</div>
+ 
+<div class="col-sm-2">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+</div>
+ 
+<br>
+ 
+ 
+ 
+<div class="row">
+ 
+<div class="col-sm-2">
+ 
+<h5>End time:</h5>
+ 
+</div>
+ 
+<div class="col-sm-2">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+<div class="col-sm-2"></div>
+ 
+<div class="col-sm-2">
+ 
+<h5>Status:</h5>
+ 
+</div>
+ 
+<div class="col-sm-2">
+ 
+<input type="text" class="form-control" id="usr">
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+<br>
+ 
+<div class="row">
+ 
+<div class="col-sm-2">
+ 
+<p></p>
+ 
+</div>
+ 
+<div class="col-sm-8">
+ 
+<button type="button" class="btn btn-primary">ADD NEW FOOD</button>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+</div>
+ 
+ 
+ 
+ 
+ 
+<!-- Code injected by live-server -->
+ 
+<script type="text/javascript">
+ 
+        	// <![CDATA[ <-- For SVG support
+ 
+        	if ('WebSocket' in window) {
+ 
+                    	(function () {
+ 
+                                	function refreshCSS() {
+ 
+                                            	var sheets = [].slice.call(document.getElementsByTagName("link"));
+ 
+                                            	var head = document.getElementsByTagName("head")[0];
+ 
+                                            	for (var i = 0; i < sheets.length; ++i) {
+ 
+                                                        	var elem = sheets[i];
+ 
+                                                        	var parent = elem.parentElement || head;
+ 
+                                                        	parent.removeChild(elem);
+ 
+                                                        	var rel = elem.rel;
+ 
+                                                        	if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+ 
+                                                                    	var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+ 
+                                                                    	elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+ 
+                                                        	}
+ 
+                                                        	parent.appendChild(elem);
+ 
+                                            	}
+ 
+                                	}
+ 
+                                	var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+ 
+                                	var address = protocol + window.location.host + window.location.pathname + '/ws';
+ 
+                                	var socket = new WebSocket(address);
+ 
+                                	socket.onmessage = function (msg) {
+ 
+                                            	if (msg.data == 'reload') window.location.reload();
+ 
+                                            	else if (msg.data == 'refreshcss') refreshCSS();
+ 
+                                	};
+ 
+                                	if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+ 
+                                            	console.log('Live reload enabled.');
+ 
+                                	        	sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+ 
+                                	}
+ 
+                    	})();
+ 
+        	}
+ 
+        	else {
+ 
+                    	console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+ 
+        	}
+ 
+        	// ]]>
+ 
+</script></body>
+ 
+ 
+ 
+</html>
+ 
+ 
+ 
+ 
+
